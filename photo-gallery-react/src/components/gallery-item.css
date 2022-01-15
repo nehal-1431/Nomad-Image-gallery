@@ -1,0 +1,21 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0 0 10px;
+    border:0;
+}
+
+.card-item {
+ flex: auto 0 1;
+ align-self: center;
+ width: 100%;
+ margin: 10px 0 0 10px;
+}
+
+.card-item > img {
+    width: 100%;
+}

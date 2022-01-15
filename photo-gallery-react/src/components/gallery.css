@@ -1,0 +1,23 @@
+
+.image_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 10px;
+    margin: 20px 0 0 0;
+}
+
+.images-selected {
+  margin: 10px 0;
+}
+
+.gallery-item{
+    flex: auto 0 1;
+    align-self: flex-start;
+}
+
+.gallery-item .item-author{
+   padding: 10px 0 0 0;
+}
